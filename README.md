@@ -2,28 +2,32 @@
 # Birth Weight Analysis Project
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Project Structure](#project-structure)
-- [Data Description](#data-description)
-- [Data Modeling](#data-modeling)
-- [Analysis Process](#analysis-process)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [How to Run the Project](#how-to-run-the-project)
-- [Dependencies](#dependencies)
-- [References](#references)
+- [Birth Weight Analysis Project](#birth-weight-analysis-project)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Project Structure](#project-structure)
+  - [Data Description](#data-description)
+    - [Key Variables](#key-variables)
+  - [Data Modeling](#data-modeling)
+    - [Relational Model](#relational-model)
+  - [Analysis Process](#analysis-process)
+  - [Results](#results)
+  - [Conclusion](#conclusion)
+  - [How to Run the Project](#how-to-run-the-project)
+  - [Dependencies](#dependencies)
+  - [References](#references)
 
 ## Introduction
 This project aims to understand and analyze the factors that influence the birth weight of newborns. The study is based on demographic and health data from the United States for births occurring in 2018. Using Python, SQL, and data modeling techniques, the project examines how various factors impact birth weight, which is an essential indicator of infant health.
 
 ## Project Structure
 The project consists of the following main files:
-- `aiounou_dimitri_sandra_ulrich.pdf`: A detailed report that presents the analysis and findings of the study.
+<!-- - `report.pdf`: A detailed report that presents the analysis and findings of the study. -->
 - `python.ipynb`: A Jupyter Notebook containing the data processing, analysis, and visualization using Python.
 - `sql.ipynb`: A Jupyter Notebook demonstrating the database creation and queries using SQL.
 
 ## Data Description
-The dataset used for this study includes information on newborns, their parents, and various health-related factors. It contains variables such as:
+The dataset used for this study includes information on newborns, their parents, and various health-related factors. It can be found [here](https://data.nber.org/nvss/natality/csv/2018/natality2018us.csv). It contains variables such as:
 - **Demographic Data**: Age of parents, race, education level, etc.
 - **Health Data**: Birth weight, duration of pregnancy, prenatal consultations, maternal health conditions (e.g., diabetes, hypertension).
 
@@ -37,7 +41,7 @@ The data was sourced from birth certificates recorded by the National Center for
 - `rf_gdiab`: Gestational diabetes presence
 - `rf_phype`: Hypertension before pregnancy
 
-A complete dictionary of variables is available in the report for detailed descriptions.
+A complete dictionary of variables is available [here](https://data.nber.org/) for detailed descriptions.
 
 ## Data Modeling
 The project employs the MERISE methodology to design a conceptual and relational data model for the study. The data model includes entities such as `BEBE`, `MERE`, `PERE`, `ZONE`, and `MALADIE`, with relationships that represent the associations between them.
@@ -103,4 +107,4 @@ pip install pandas numpy matplotlib seaborn
 
 ---
 
-This README provides a comprehensive guide to the project, detailing the objectives, data, analysis process, and findings. For further information, refer to the report `aiounou_dimitri_sandra_ulrich.pdf`.
+This README provides a comprehensive guide to the project, detailing the objectives, data, analysis process, and findings. 
